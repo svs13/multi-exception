@@ -6,10 +6,12 @@ MultiException
 Применение
 ----------
 
-Пример реализации мультиисключения:
+Пример реализации:
 
 ```php
 <?php
+
+require __DIR__ . '/vendor/autoload.php';
 
 use Svs13\MultiException;
 
@@ -36,5 +38,6 @@ try {
         echo $error->getMessage() . "\n";
     }
 }
+
 ```
 
