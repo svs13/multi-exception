@@ -2,7 +2,16 @@
   "name": "svs13/multi-exception",
   "type": "library",
   "description": "Библиотека классов, реализующих концепцию \"мультиисключение\"",
-  "keywords": ["multi","exception"],
+  "keywords": ["multi","exception", "multiexception", "multi-exception"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "svs13",
+      "email": "svs13@mail.ru",
+      "homepage": "",
+      "role": "Developer"
+    }
+  ],
   "require": {
     "php": ">=7.0.0"
   },
