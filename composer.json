@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "svs13\\": "libs/"
+      "Svs13\\": "libs/"
     }
   }
 }
