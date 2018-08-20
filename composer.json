@@ -1,0 +1,14 @@
+{
+  "name": "svs13/multi-exception",
+  "type": "library",
+  "description": "Библиотека классов, реализующих концепцию \"мультиисключение\"",
+  "keywords": ["multi","exception"],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "svs13\\": "libs/"
+    }
+  }
+}
