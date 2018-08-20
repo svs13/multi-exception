@@ -22,7 +22,7 @@ function validate($password)
     if (false === strpos($password, '0')) {
         $errors->add(new Exception('Нет цифры 0!'));
     }
-    if (strlen($password)<6) {
+    if (strlen($password) < 6) {
         $errors->add(new Exception('Слишком короткий пароль'));
     }
 
